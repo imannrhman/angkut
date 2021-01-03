@@ -9,17 +9,14 @@ import 'package:flutter/material.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 class Routers{
-  static const String main = '/main';
-  static const String onBoarding  = '/on-boarding';
-  static const String home = 'home';
-  static const String schedule = '/schedule';
-  static const String profile = '/profile';
-  static const String order = '/order';
-  static const String login = '/login';
-  static const String firstPage = '/';
-  static const String register = '/register';
-  static const String payment = '/payment';
-  static const String comingSoon = '/coming-soon';
+  static const String main = 'main';
+  static const String schedule = 'schedule';
+  static const String order = 'order';
+  static const String login = 'login';
+  static const String firstPage = 'on-boarding';
+  static const String register = 'register';
+  static const String payment = 'payment';
+  static const String comingSoon = 'coming-soon';
 
 
   static Route<dynamic> generateRoute(RouteSettings settings){

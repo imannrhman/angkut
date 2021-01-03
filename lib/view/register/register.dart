@@ -4,6 +4,7 @@ import 'package:angkut/util/route.dart';
 import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:shared_preferences/shared_preferences.dart';
 
 class RegisterPage extends StatelessWidget {
   @override
@@ -75,7 +76,9 @@ class RegisterPage extends StatelessWidget {
                 child: ClipRRect(
                   borderRadius: BorderRadius.all(Radius.circular(16.0)),
                   child: FlatButton(
-                    onPressed: () {
+                    onPressed: () async{
+                      SharedPreferences prefs = await SharedPreferences.getInstance();
+                      prefs.setBool(Constant.LOGIN_PREFERENCE, true);
                       Navigator.pushNamedAndRemoveUntil(context, Routers.main, (route) => false);
                     },
                     child: Text("Daftar",style: TextStyle(

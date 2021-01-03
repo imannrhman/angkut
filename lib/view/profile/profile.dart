@@ -93,6 +93,8 @@ class _ProfilePageState extends State<ProfilePage> {
                           ),
                           child: FlatButton(
                             onPressed: () async{
+                              SharedPreferences prefs = await SharedPreferences.getInstance();
+                              prefs.setBool(Constant.LOGIN_PREFERENCE,false);
                               Navigator.pushNamedAndRemoveUntil(context, Routers.login, (route) => false);
                             },
                             child: Text("Ya",style: TextStyle(

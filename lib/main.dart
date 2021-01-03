@@ -35,6 +35,7 @@ class MyApp extends StatelessWidget {
               ? Routers.main
               : Routers.login,
       onGenerateRoute: Routers.generateRoute,
+
       theme: ThemeData(
         scaffoldBackgroundColor: Colors.white,
         brightness: Brightness.light,
@@ -73,7 +74,6 @@ class MyApp extends StatelessWidget {
         primaryColorLight: Colors.white,
 
         dialogTheme: DialogTheme(
-
           shape: RoundedRectangleBorder(
             borderRadius: BorderRadius.all(Radius.circular(20)),
           ),

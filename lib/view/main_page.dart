@@ -35,7 +35,6 @@ class _MainPageState extends State<MainPage> {
   Widget build(BuildContext context) {
     double height = MediaQuery.of(context).size.height;
     double width = MediaQuery.of(context).size.width;
-    bool showFab = MediaQuery.of(context).viewInsets.bottom==0.0;
     return Scaffold(
       extendBody: true,
       body: Stack(
