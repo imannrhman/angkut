@@ -6,9 +6,14 @@ Aplikasi Untuk Tracking Angkot
 ## Screenshot
 
 <img src="screenshots/home.png" height="300em"/> <img src="screenshots/route-estimation.png" height="300em"/> <img src="screenshots/route-nearest_driver.png" height="300em"/>
+
 <img src="screenshots/route-detail_driver.png" height="300em"/> <img src="screenshots/route-driver_coming.png" height="300em"/> <img src="screenshots/payment.png" height="300em"/>
+
 <img src="screenshots/schedule.png" height="300em"/> <img src="screenshots/profile.png" height="300em"/> <img src="screenshots/login.png" height="300em"/>
+
 <img src="screenshots/register.png" height="300em"/> <img src="screenshots/coming_soon.png" height="300em"/>
+
+
 
 ## Installation
 
