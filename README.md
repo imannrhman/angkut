@@ -3,17 +3,17 @@
 Aplikasi Untuk Tracking Angkot
 
 ## Screenshot
-![Flutter Apps](home.png)
-![Flutter Apps](route-estimation.png)
-![Flutter Apps](route-nearest_driver.png)
-![Flutter Apps](route-detail_driver.png)
-![Flutter Apps](route-driver_coming.png)
-![Flutter Apps](payment.png)
-![Flutter Apps](schedule.png)
-![Flutter Apps](profile.png)
-![Flutter Apps](login.png)
-![Flutter Apps](register.png)
-![Flutter Apps](coming_soon.png)
+![Home Page](screenshots/home.png)
+![Route Page](screenshots/route-estimation.png)
+![Route Page](screenshots/route-nearest_driver.png)
+![Route Page](screenshots/route-detail_driver.png)
+![Route Page](screenshots/route-driver_coming.png)
+![Payment Page](screenshots/payment.png)
+![Schedule Page](screenshots/schedule.png)
+![Profile Page](screenshots/profile.png)
+![Login Page](screenshots/login.png)
+![Register Page](screenshots/register.png)
+![Coming Soon Page](screenshots/coming_soon.png)
 
 ## Built With
 - [Flutter](https://flutter.dev)
