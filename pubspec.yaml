@@ -1,0 +1,79 @@
+name: angkut
+description: Aplikasi Untuk Tracking Angkot
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  badges: ^1.1.6
+  google_maps_flutter: ^1.0.6
+  flutter_polyline_points: ^0.2.4
+  google_maps_webservice: ^0.0.18
+  flutter_google_places: ^0.2.6
+  http: ^0.12.2
+  fdottedline: ^1.0.1
+  percent_indicator: ^2.1.9
+  flutter_rating_bar: ^3.2.0+1
+  carousel_slider: ^2.3.1
+  shared_preferences: ^0.5.12+4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/icons/
+    - assets/images/
+  fonts:
+    - family: Montserrat
+      fonts:
+        - asset: assets/font/Montserrat-Black.ttf
+          weight: 900
+        - asset: assets/font/Montserrat-BlackItalic.ttf
+          weight: 900
+          style: italic
+        - asset: assets/font/Montserrat-Bold.ttf
+          weight: 700
+        - asset: assets/font/Montserrat-BoldItalic.ttf
+          weight: 700
+          style: italic
+        - asset: assets/font/Montserrat-ExtraBold.ttf
+          weight: 800
+        - asset: assets/font/Montserrat-ExtraBoldItalic.ttf
+          weight: 800
+          style: italic
+        - asset: assets/font/Montserrat-ExtraLight.ttf
+          weight: 200
+        - asset: assets/font/Montserrat-ExtraLightItalic.ttf
+          weight: 200
+          style: italic
+        - asset: assets/font/Montserrat-Light.ttf
+          weight: 300
+        - asset: assets/font/Montserrat-LightItalic.ttf
+          weight: 300
+          style: italic
+        - asset: assets/font/Montserrat-Medium.ttf
+          weight: 500
+        - asset: assets/font/Montserrat-MediumItalic.ttf
+          weight: 500
+          style: italic
+        - asset: assets/font/Montserrat-SemiBold.ttf
+          weight: 600
+        - asset: assets/font/Montserrat-SemiBoldItalic.ttf
+          weight: 600
+          style: italic
+        - asset: assets/font/Montserrat-Thin.ttf
+          weight: 100
+        - asset: assets/font/Montserrat-ThinItalic.ttf
+          weight: 100
+          style: italic
+        - asset: assets/font/Montserrat-Regular.ttf
+          weight: 400
+        - asset: assets/font/Montserrat-Italic.ttf
+          style: italic
